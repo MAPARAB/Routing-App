@@ -9,7 +9,7 @@ import {PeopleServiceService} from './people-service.service';
 })
 
 
-export class PeopleListComponentComponent 
+export class PeopleListComponentComponent implements OnInit
 {
   private _peopleService: PeopleServiceService;
   people: Person[] = [];
@@ -17,8 +17,14 @@ export class PeopleListComponentComponent
   constructor(_peopleService : PeopleServiceService)
   {
     this._peopleService = _peopleService;
+  }
+
+  ngOnInit()
+  {
     this.people = this._peopleService.getAll();
   }
+
+
 
   /*
   people: Person[] = [
