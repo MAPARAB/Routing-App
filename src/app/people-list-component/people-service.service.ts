@@ -8,7 +8,8 @@ export class PeopleServiceService
       return [
               {name: 'Luke Skywalker', height: 177, weight: 70},
               {name: 'Darth Vader', height: 200, weight: 100},
-              {ame: 'Han Solo', height: 185, weight: 85},
+              {name: 'Han Solo', height: 185, weight: 85},
+              {name: 'Makarand Parab', height: 211, weight: 105},
           ];
   }
 
