@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Person} from './person';
-import {PeopleServiceService} from './people-sevice.service';
+import {PeopleServiceService} from './people-service.service';
 
 @Component({
   selector: 'app-people-list-component',
