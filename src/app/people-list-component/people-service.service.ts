@@ -10,6 +10,7 @@ export class PeopleServiceService
               {name: 'Darth Vader', height: 200, weight: 100},
               {name: 'Han Solo', height: 185, weight: 85},
               {name: 'Makarand Parab', height: 211, weight: 105},
+              {name: 'Andreas Agasi', height: 211, weight: 105},
           ];
   }
 

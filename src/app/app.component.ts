@@ -9,7 +9,7 @@ import { PeopleServiceService } from './people-list-component/people-service.ser
 
   // HERE! This registers the PeopleService 
   // now Angular 2 knows to inject it when required
-  providers: [PeopleServiceService]
+  //providers: [PeopleServiceService]
 
 })
 export class AppComponent {

@@ -16,7 +16,8 @@ import { PeopleListComponentComponent } from './people-list-component/people-lis
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  //providers: [],
+  providers: [PeopleServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
