@@ -9,7 +9,7 @@ import {Person} from './person';
 
 export class PersonDetailsComponent 
 {
-  @Input() selectedPerson : Person;
+  @Input() person  : Person;
 
 
 }

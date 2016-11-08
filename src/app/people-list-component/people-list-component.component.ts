@@ -26,7 +26,7 @@ export class PeopleListComponentComponent implements OnInit
   }
 
   
-  selectPerson(person:Person)
+  selectPerson(person: Person)
   {
     this.selectedPerson = person;
   }
