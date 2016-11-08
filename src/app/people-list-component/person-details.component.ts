@@ -9,6 +9,11 @@ import {Person} from './person';
 
 export class PersonDetailsComponent 
 {
-   @Input() person : Person;
+  @Input() selectedPerson : Person;
+
+  selectPerson(person)
+  {
+    this.selectedPerson = person;
+  }
 
 }
