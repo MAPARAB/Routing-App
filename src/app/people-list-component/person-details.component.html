@@ -1,3 +1,7 @@
-<p>
-  person-details works!
-</p>
+<section *ngIf="selectedPerson">
+    <h2>You selected:  {{selectedPerson.name}}</h2>
+    <h3>Description</h3>
+    <p>
+       {{selectedPerson.name}} weights  {{selectedPerson.weight}} and is  {{selectedPerson.height}} tall.
+    </p>
+  </section>
