@@ -11,9 +11,5 @@ export class PersonDetailsComponent
 {
   @Input() selectedPerson : Person;
 
-  selectPerson(person)
-  {
-    this.selectedPerson = person;
-  }
 
 }

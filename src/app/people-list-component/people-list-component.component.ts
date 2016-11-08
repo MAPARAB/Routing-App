@@ -13,7 +13,7 @@ export class PeopleListComponentComponent implements OnInit
 {
   private _peopleService: PeopleServiceService;
   people: Person[] = [];
-  //selectedPerson : Person;
+  selectedPerson : Person;
 
   constructor(_peopleService : PeopleServiceService)
   {
@@ -25,11 +25,11 @@ export class PeopleListComponentComponent implements OnInit
     this.people = this._peopleService.getAll();
   }
 
-  /*
-  selectPerson(person)
+  
+  selectPerson(person:Person)
   {
     this.selectedPerson = person;
   }
-  */
+  
 
 }
